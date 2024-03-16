@@ -1,14 +1,7 @@
-/*.profile-pic {
-}
-
-.name-header{
-    text-align: center;
-}*/
-
 .button-container {
     display: flex;
     position: fixed;
-    top: 50%;
+    top: 35%;
     left: 50%;
     align-items: center;
 }
