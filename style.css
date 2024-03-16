@@ -39,7 +39,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: 0;
 }
 
 .profile-pic {
@@ -58,16 +57,13 @@ body {
     margin-right: 10px;
 }
 
-.social-media-button:last-child {
-    margin-right: 0;
-}
-
 .social-media-button button {
-    background: none;
+    background-color: transparent;
     border: none;
-    padding: 0;
+    cursor: pointer;
 }
 
-.social-media-button img {
+.social-media-button button img {
     width: 40px;
+    height: 40px;
 }
