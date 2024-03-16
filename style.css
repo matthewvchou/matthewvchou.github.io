@@ -1,4 +1,4 @@
-/* .profile-pic {
+.profile-pic {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -14,6 +14,7 @@
 }
 
 .description {
+    display: flex;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -32,38 +33,4 @@
 .social-media-button {
     width: 50px;
     height: 50px;
-}*/
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.profile-pic {
-    margin-bottom: 20px;
-}
-
-.name-header {
-    margin-bottom: 20px;
-}
-
-.button-container {
-    display: flex;
-}
-
-.social-media-button {
-    margin-right: 10px;
-}
-
-.social-media-button button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.social-media-button button img {
-    width: 40px;
-    height: 40px;
 }
