@@ -1,4 +1,4 @@
-.profile-pic {
+/* .profile-pic {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -32,4 +32,42 @@
 .social-media-button {
     width: 50px;
     height: 50px;
+}*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-pic {
+    margin-bottom: 20px;
+}
+
+.name-header {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+}
+
+.social-media-button {
+    margin-right: 10px;
+}
+
+.social-media-button:last-child {
+    margin-right: 0;
+}
+
+.social-media-button button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.social-media-button img {
+    width: 40px;
 }
