@@ -1,8 +1,8 @@
 .button-container {
     display: flex;
     position: fixed;
-    top: 35%;
-    left: 50%;
+    top: 50%;
+    left: 35%;
     align-items: center;
 }
 
