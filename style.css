@@ -1,23 +1,11 @@
 .profile-pic {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 500px;
-    height: 500px;
 }
 
 .name-header{
     text-align: center;
-    position: fixed;
-    top: 50%;
-    left: 50%;
 }
 
 .description {
-    display: flex;
-    position: fixed;
-    top: 50%;
-    left: 50%;
 }
 
 .button-container {
