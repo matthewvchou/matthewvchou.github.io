@@ -1,8 +1,10 @@
 .button-container {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.LinkedInButton img {
-    width: 100px;
-    height: 100px;
+.social-media-button img {
+    width: 25px;
+    height: 25px;
 }
